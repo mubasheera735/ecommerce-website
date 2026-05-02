@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  font-family: Arial;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
